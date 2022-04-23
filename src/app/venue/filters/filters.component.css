@@ -1,0 +1,51 @@
+hr{
+    border: 1px solid rgba(0, 0, 0,0.2);
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: transparent;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.filter-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filter-list{
+    color: rgb(255, 0, 0);
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none
+}
+
+.filter-form{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;    
+}
+
+select{
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1;
+    border: 1px solid rgba(0, 0, 0,0.4);
+    border-radius: 4px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right rgb(255, 255, 255);
+    -webkit-appearance: none;
+    background-position-x: 300px;
+}

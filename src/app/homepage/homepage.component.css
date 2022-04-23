@@ -1,0 +1,281 @@
+.main{
+  margin-top: -75px;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+  min-height: 95vh;
+  background-image: url('src/assets/images/banner-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.tag>h3{
+  color:rgb(146, 1, 204);
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-weight: 500;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+section.tag>p{
+  color:rgb(3, 150, 150);
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.col-md-offset-2{
+  padding-top: 15%;
+}
+
+.col-md-8{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70;
+}
+
+#dropmenu1{
+  position: relative;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px black;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15%;
+}
+
+.col-md-offset-3 {
+  text-align: center;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-md-12{
+width: 100%;
+}
+
+section.tag2>h3{
+  color:rgb(255, 0, 0);
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px cadetblue;
+  letter-spacing: 2px;
+}
+
+section.tag2>p{
+  color:rgb(41, 40, 41);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.col-banner-top{
+  text-align: center;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topdesgin1{
+  margin-bottom: 10px;
+}
+
+section.venu>h3{
+  margin-top: 2%;
+  color:rgb(255, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-shadow: 2px 2px 2px cadetblue; 
+}
+
+.col-venu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  margin-top: 3%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.row{
+  max-width: 1100px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-4{
+  flex: 0 0 33.33333333%;
+  max-width: 33.3333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.col-md-8{
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.venu{
+  margin-bottom: 15px;
+  position: relative; 
+  overflow: hidden;;
+}
+
+.venu-img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.venu .venu-img{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  opacity: 0.9;
+}
+
+.venu:hover .venu-img{
+  transform: scale(1);
+  opacity: 1;
+}
+
+section.vend>h3{
+  margin-top: 10%;
+  color:rgb(255, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-shadow: 2px 2px 2px cadetblue; 
+}
+
+.main1{
+  margin-top: 2.5%;
+  background-color: rgba(158, 158, 158, 0.2);
+}
+
+.col-vend{
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+  width: 100%;
+  height: 70px;
+  padding-top: 2%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.row-vend{
+  padding-top: 2%;
+  max-width: 1100px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6{
+  flex: 0 0 33.33333333%;
+  max-width: 33.3333333%;
+  position: relative;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.vend{
+  margin-bottom: 15px;
+  position: relative; 
+  overflow: hidden;;
+}
+
+.vend-img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.vend .vend-img{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  opacity: 0.9;
+}
+
+.vend:hover .vend-img{
+  transform: scale(1);
+  opacity: 1;
+}
+
+
+.col-photo{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+section.photo>h3{
+  margin-top: 2%;
+  color:rgb(255, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-shadow: 2px 2px 2px cadetblue;
+}
+
+.topdesgin3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row-photo{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  flex: 0 0 20%;
+  max-width: 17%;
+  padding: 0px 2px 0px 2px;
+  text-align: center;
+  margin-bottom: 2%;
+  opacity: 0.9;
+  box-shadow: 0px 5px 17px -1px black;
+}
+
+.photo-img{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}

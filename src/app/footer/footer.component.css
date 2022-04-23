@@ -1,0 +1,152 @@
+.page-foot{
+    cursor: default;
+    width: 100%;
+    height: 65vh;
+    background-image: url('src/assets/images/bottom.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.col-bottom-banner{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-down1{
+    display: flex;
+    flex-direction: row;
+}
+  
+.about{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 30px;
+}
+  
+.about>h2{
+    padding-top: 20px;
+    color: rgb(255, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500; 
+}
+  
+.about>p{
+    padding-top: 20px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+  
+.follow>h3{
+    padding-top: 20px;
+    color: rgb(153, 0, 89);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: 20px;
+}
+  
+.enquiry{
+    color: rgb(153, 0, 89);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+  
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+}
+
+.links a:hover{
+    color: rgba(255, 0, 0,0.6);
+}
+  
+.category{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.nav{
+    margin-right: -20px;
+}
+
+.imgg{
+    display: flex;
+    align-content: center;
+    flex-flow: wrap;
+}
+
+.category>h1{
+    padding-top: 40px;
+    padding-left: 30px;
+    color: rgb(153, 0, 89);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.nav_links{
+    padding-top: 10px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+
+.nav_links li a {
+    line-height: 2;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav_links li a{
+    transition:all 0.3s ease 0s;
+}
+  
+.nav_links li a:hover {
+    color: #800000;
+}
+
+.copy{
+    margin-top: 50px;
+}
+
+.copyright{
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fdfdfd;
+    font-size: 14px;
+    line-height: 1;
+    padding: 25px;
+    cursor: default;
+}
+
+span:hover{
+    color: rgb(0, 255, 0)
+}

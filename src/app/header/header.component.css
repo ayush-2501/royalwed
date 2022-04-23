@@ -1,0 +1,127 @@
+.nav_links li, a{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.main{
+    line-height: 4;
+    display: flex;
+    flex-direction: row; 
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow:0 1px 17px -1px darkcyan;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.logo{
+  flex: 0 0 12%;
+  max-width: 12%;
+}
+
+.logo img{
+  width: 95%;
+  height: 100%;
+  cursor:pointer;
+  margin-left: 10px;
+}
+
+.nav_links{
+  flex: 0 0 88%;
+  max-width: 88%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav_links ul li{
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.nav_links ul li a{
+  transition:all 0.3s ease 0s;
+}
+
+.nav_links ul li a:hover {
+  color: #800000;
+}
+
+.navdropvend_links{
+  display: none;
+  columns: 2;
+}
+
+.navdropvenu_links{
+  display: none;
+  columns: 3;
+}
+
+.navdropshop_links{
+  display: none;
+  columns: 1;
+}
+
+.navdropvend_links li a{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navdropvenu_links li a{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.navdropshop_links li a{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.main .nav_links li:hover .navdropvend_links{
+    line-height: 3;
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 25vw;
+}
+
+.main .nav_links li:hover .navdropvenu_links{
+    line-height: 3;
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 35vw;
+}
+
+.main .nav_links li:hover .navdropshop_links{
+    line-height: 3;
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8 );
+    width: 7vw;
+}
+
+.navdropvend_links ul li{
+  margin-left: 10%;
+  width: 250px;
+}
+
+.navdropvenu_links ul li{
+  margin-left: 10%;
+  width: 250px;
+}
+
+.navdropshop_links ul li{
+  margin-left: 15%;
+  width: 250px;
+}

@@ -1,0 +1,55 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.items-list{
+    margin: 10px;
+    flex: 0 0 30.5%;
+    max-width: 30.5%;
+}
+
+.card{  
+    width: 464px;
+    height: 456px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(172, 86, 133);
+    border-radius: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 0 1px 10px -1px rgb(255, 106, 106);
+}
+
+.card-list-2{
+    padding: 8px;
+    text-align: center;
+}
+
+.card-list-3{
+    color: rgb(3, 90, 0);
+    padding: 8px;
+    text-align: center;
+}
+
+.card-list-4{
+    padding: 8px;
+    color: rgb(0, 0, 255);
+    text-align: right;
+    border-top: 1px dashed rgba(0, 0, 0,0.4);
+}
+
+.card-list-5{
+    padding: 5px;
+    text-align: center;
+    border-top: 1px dashed rgba(0, 0, 0,0.4);
+}
+
+
+
